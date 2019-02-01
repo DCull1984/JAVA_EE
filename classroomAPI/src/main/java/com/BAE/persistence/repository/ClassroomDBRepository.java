@@ -31,7 +31,7 @@ public class ClassroomDBRepository implements ClassroomRepository {
 	public String getAllClassMembers() {
 		Query query = manager.createQuery("SELECT a FROM ClassMembers a");
 		List<ClassMembers> peopleInClass = query.getResultList();
-		return util.getJSONForObject(peopleInClass.toArray());
+		return util.getJSONForObject(peopleInClass);
 	}
 
 	@Transactional(REQUIRED)
