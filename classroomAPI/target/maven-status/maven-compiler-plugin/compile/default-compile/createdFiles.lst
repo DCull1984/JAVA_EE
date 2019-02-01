@@ -1,0 +1,8 @@
+com\BAE\business\service\ClassroomImpl.class
+com\BAE\persistence\domain\ClassMembers.class
+com\BAE\rest\JAXActivator.class
+com\BAE\util\JSONUtil.class
+com\BAE\persistence\repository\ClassroomDBRepository.class
+com\BAE\business\service\Classroom.class
+com\BAE\persistence\repository\ClassroomRepository.class
+com\BAE\rest\ClassroomEndpoint.class
